@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>marcedesarrolla | Portfolio</title>
+
+    <meta name="description" content="Marcelo Cañadas  - Web Developer - Frontend Layout ">
+
+    <!--OPEN GRAPH-->
+
+    <meta property="og:title" content="Marcelo Cañadas  - Web Developer - Frontend Layout ">
+    <meta property="og:description" content="¡Discover my Frontend Web Development Portfolio! ¡Click to explore my projects!">
+    <meta property="og:image" content="/assets/img/perfil/hero1.jpg">
+    <meta property="og:image:alt" content="Photography by marcedev, working from home">
+
+    <!-- FIN OPEN GRAPH -->
+
+    <link rel="stylesheet" href="/css/estilo.css">
+
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1e2326">
+
+    <link type="image/png" sizes="16x16" rel="icon" href="https://img.icons8.com/3d-fluency/94/globe-africa.png" alt="globe-africa">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">marcedesarrolla</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">ABOUT</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">STUDIES</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">JOBS</a></li>
+                    <li><a href="/index.html" onclick="seleccionar()">ESPAÑOL</a></li>
+
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="/assets/img/perfil/hero1.jpg" alt="Photography by marcedev">
+            </div>
+            <h1>MARCELO CAÑADAS</h1>
+            <h3>Web Developer & Frontend Layout</h3><br>
+            <p>contacto@marcedesarrolla.com</p>
+            <div class="redes">
+                <a href="https://github.com/MarceloDesarrollador" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/marcelodesarrollador/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://discord.com/invite/eDUtHpzc" target="_blank" rel="noreferrer"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.instagram.com/marcedesarrolla/" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/desarrollamarce" target="_blank" rel="noreferrer"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61552610980234&mibextid=ZbWKwL" target="_blank" rel="noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/@marcedesarrollador" target="_blank" rel="noreferrer"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.twitch.tv/marcedesarrolla" target="_blank" rel="noreferrer"><i class="fa-brands fa-twitch"></i></a>
+                <a href="https://www.youtube.com/@MarceDesarrolla/" target="_blank" rel="noreferrer"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About me</h2>
+            <p><span>Hello, I'm Marcelo Cañadas.</span> In 2019 I started as a web developer, applying different technologies, libraries and frameworks within the forntend specialty.
+            From the beginning I carried out several personal projects, and also freelance projects, for small businesses and companies within my city; which you can see in the jobs section, at the bottom of this site. I've done remote work for some agencies, consulting for startups, and collaborating with talented people. I am curious and innovative by nature and I am passionate about development, I am sociable, I love challenges and I constantly work to improve my skills</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal information</h3>
+                    <ul>
+                        <li>
+                            <strong>Native City</strong>
+                            Mendoza, Argentina
+                        </li>
+                        <li>
+                            <strong>City ​​of Residence</strong>
+                            Neuquén, Patagonia Argentina
+                        </li>
+                        <li>
+                            <strong>birthdate</strong>
+                            22-03-1973
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            contacto@marcedesarrolla.com
+                        </li>
+                        <li>
+
+                            <strong>I am</strong>
+                            Web Developer & Frontend Layout
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORT</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="/docs/cv_marcelo_canadas2.pdf" download="Curriculum Vitae Marcelo Cañadas"  class="download-btn">Descargar CV </a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Social Networks</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>My Studies</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education Completed</h3>
+                    <div class="item izq">
+                        <h4>Complete Web Development with HTML5, CSS3, JS AJAX PHP y MySQL</h4>
+                        <span class="casa">UDEMY</span>
+                        <span class="fecha">2019</span>
+                        <p>HTML, CSS, SASS, Workflows, JavaScript, Fetch (Before AJAX), PHP, POO - MVC, MySQL - SQL y API's.
+
+                            HTML tags, web structure and layout. CSS grid and flex-box, methodology BEM and SuitCSS, specificity. Javascript, constants, loops,and variables, conditionals, etc.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Master in JavaScript: Learn JS, jQuery, Angular, NodeJS</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">2018</span>
+                        <p>Programming from scratch in JavaScript. jQuery library. Web layout. TypeScript. POO,Object Oriented Programming in JavaScript.  Framework Angular of JavaScript standard for web application development SPA, dynamic, modern and scalable.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Mobile App Development</h4>
+                        <span class="casa">Complutense University of Madrid + Google</span>
+                        <span class="fecha">2015</span>
+                        <p>Basic skills and concepts for creating applications for mobile devices.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Education in process</h3>
+                    <div class="item der">
+                        <h4>Frontend Developer</h4>
+                        <span class="casa">Argentina Program, I know how to program</span>
+                        <span class="fecha">2022</span>
+                        <p>Endorsed by the Ministry of Economy and the Business Chamber of Software and Computer Services (CESSI).
+                        Basic fundamentals of programming, using Gobstones and performing hundreds of exercises, using JavaScript to learn imperative programming. And then OOP (Object Oriented Programming), with the language called Ruby, solving problems and modeling reality using objects that communicate with each other .
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>University Technician in Web Development</h4>
+                        <span class="casa">Faculty of Informatics of the National University of Comahue.</span>
+                        <span class="fecha">2022</span>
+                        <p>2.5 year career, with a final project, as an integrator. Programming, Web Laboratory, Mathematics, Systems design and documentation analysis, frameworks and interoperability, static and dynamic programming, Technical English, etc.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Web Development</h4>
+                        <span class="casa">Autodidact</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>I learn from books, Courses, YouTube, etc. I carry out challenging projects designed for Frontend development, and introducing myself to Backend issues, little by little.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+<section class="portfolio" id="portfolio">
+
+<main >
+
+	<h1 class="title-text">Look at some of my works</h1>
+	<div class="gallery">
+
+
+	<div class="gallery__item div-imagen">
+        <div class="text-center" >
+            <ul class="tn">
+                <li><i>Hardware Store</i></li>
+                <li class="interList"><h2>ARU NEUQUEN</h2></li>
+                <li>Technologies Used</li>
+                <li><i>HTML & CSS</i></li>
+            </ul>
+        </div>
+		<a href="https://aruferreteria.netlify.app/" target="_blank" rel="noreferrer"><img class="zoom-out desvanecer" src="/assets/img/aru_ferreteria.jpg" alt="Ferreteria Aru"></a>
+
+	</div>
+
+	<div class="gallery__item div-imagen">
+        <div class="text-center" >
+            <ul class="tn">
+                <li><i>Real-Estate Agency</i></li>
+                <li class="interList"><h2>REAL ESTATE</h2></li>
+                <li>Technologies Used</li>
+                <li><i>HTML & CSS</i></li>
+            </ul>
+        </div>
+	<a href="assets/sites/bienes_raices/index.html" target="_blank" rel="noreferrer"><img class="zoom-out desvanecer" src="/assets/img/inmobiliaria_bienes_raices.jpg" alt="Inmobiliaria Bienes Raices"></a>
+
+	</div>
+
+	<div class="gallery__item div-imagen">
+        <div class="text-center" >
+            <ul class="tn">
+                <li><i>Metallurgical</i></li>
+                <li class="interList"><h2>NEUQUEN GATES</h2></li>
+                <li>Technologies Used</li>
+                <li><i>HTML, CSS, <br>JavaScript, PHP & Smarty</i></li>
+            </ul>
+        </div>
+	<a href="assets/sites/portones_nqn/index.html" target="_blank" rel="noreferrer"><img class="zoom-out desvanecer" src="/assets/img/portones_nqn.jpg" alt="Portones Neuquén"></a>
+
+	</div>
+
+	<div class="gallery__item div-imagen">
+        <div class="text-center" >
+            <ul class="tn">
+                <li><i>Gym</i></li>
+                <li class="interList"><h2>RUN FITNESS</h2></li>
+                <li>Technologies Used</li>
+                <li><i>HTML, CSS & JavaScript</i></li>
+            </ul>
+        </div>
+	<a href="assets/sites/run_fit/index.html" target="_blank" rel="noreferrer"><img class="zoom-out desvanecer" src="/assets/img/run_fit_gym.jpg" alt="Gimnasio Run Fitness"></a>
+
+	</div>
+
+	<div class="gallery__item div-imagen">
+        <div class="text-center" >
+            <ul class="tn">
+                <li><i>Radio</i></li>
+                <li class="interList"><h2>DIMENSION</h2></li>
+                <li>Technologies Used</li>
+                <li><i>HTML, CSS & JavaScript</i></li>
+            </ul>
+        </div>
+	<a href="assets/sites/radio_dimension/index.html" target="_blank" rel="noreferrer"><img class="zoom-out desvanecer" src="/assets/img/radio_dimension.jpg" alt="Radio Dimension"></a>
+
+	</div>
+
+	<div class="gallery__item div-imagen">
+        <div class="text-center" >
+            <ul class="tn">
+                <li><i>Netflix Clone</i></li>
+                <li class="interList"><h2>CINEFILOS FILMS</h2></li>
+                <li>Technologies Used</li>
+                <li><i>HTML, CSS & JavaScript</i></li>
+            </ul>
+        </div>
+	<a href="assets/sites/cinefilos/index.html" target="_blank" rel="noreferrer"><img class="zoom-out desvanecer" src="/assets/img/cinefilos-film.jpg" alt="Cinefilos Films"></a>
+
+	</div>
+
+    <div class="gallery__item div-imagen">
+        <div class="text-center" >
+            <ul class="tn">
+                <li><i>Rock Band</i></li>
+                <li class="interList"><h2>THE GENERICS</h2></li>
+                <li>Technologies Used</li>
+                <li><i>HTML & CSS</i></li>
+            </ul>
+        </div>
+	<a href="https://atharvaagrawal.tech/The-Generic-Band-Store/index.html" target="_blank" rel="noreferrer"><img class="zoom-out desvanecer" src="/assets/img/the_generics.jpg" alt="Gimnasio Run Fitness"></a>
+
+	</div><div class="gallery__item div-imagen">
+        <div class="text-center" >
+            <ul class="tn">
+                <li><i>Travel Agency</i></li>
+                <li class="interList"><h2>INCREDIBLE<BR>TRAVELS</h2></li>
+                <li>Technologies Used</li>
+                <li><i>HTML, CSS & JavaScript</i></li>
+            </ul>
+        </div>
+	<a href="assets/sites/travesias_increibles/Index.html" target="_blank" rel="noreferrer"><img class="zoom-out desvanecer" src="/assets/img/travesias_increibles.jpg" alt="Travesias Increibles"></a>
+
+	</div>
+
+	<div class="gallery__item div-imagen">
+        <div class="text-center" >
+            <ul class="tn">
+                <li><i>calculation Device</i></li>
+                <li class="interList"><h2>CALC</h2></li>
+                <li>Technologies Used</li>
+                <li><i>HTML, CSS & JavaScript</i></li>
+            </ul>
+        </div>
+	<a href="assets/sites/simple_calc/index.html" target="_blank" rel="noreferrer"><img class="zoom-out desvanecer" src="/assets/img/calculadora.jpg" alt="Simple Calculadora"></a>
+
+    </div>
+
+    <div class="gallery__item div-imagen">
+        <div class="text-center" >
+            <ul class="tn">
+                <li><i>Legal Study</i></li>
+                <li class="interList"><h2>de IURIS</h2></li>
+                <li>Technologies Used</li>
+                <li><i>HTML, CSS & JavaScript</i></li>
+            </ul>
+        </div>
+	<a href="https://deiurisabogados.000webhostapp.com/" target="_blank" rel="noreferrer"><img class="zoom-out desvanecer" src="/assets/img/de_iuris.jpg" alt="Abogados de IURIS"></a>
+
+    </div>
+</main>
+</section>
+<!-- End Portfolio page -->
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>GO BACK UP
+        <div><br>
+            <p>contacto@marcedesarrolla.com</p></div>
+        
+        <div class="redes" id="contacto">
+                <a href="https://github.com/MarceloDesarrollador" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></fa-brands></a>
+                <a href="https://www.linkedin.com/in/marcelodesarrollador/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://discord.com/invite/eDUtHpzc" target="_blank" rel="noreferrer"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.instagram.com/marcedesarrolla/" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/desarrollamarce" target="_blank" rel="noreferrer"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61552610980234&mibextid=ZbWKwL" target="_blank" rel="noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/@marcedesarrollador" target="_blank" rel="noreferrer"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.twitch.tv/marcedesarrolla" target="_blank" rel="noreferrer"><i class="fa-brands fa-twitch"></i></a>
+                <a href="https://www.youtube.com/@MarceDesarrolla/" target="_blank" rel="noreferrer"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        
+        <div class="copy">
+            2022 - copyright  &copy; <?=date("Y")?> WebMaster MarceloCañadas
+            <br>
+            <br>
+            </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
